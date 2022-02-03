@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+
+
+    <!-- mein style -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!-- navbar start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">LFWF Academy</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Service
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-info" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+   
+      <!-- navbar end-->  
+
+
+      <!-- slider section start -->
+      <section class="banner-section">
+          <div class="container-fluid">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./class-21/banner2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block my-auto">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./class-21/banner1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block my-auto">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  
+                 
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+
+
+
+
+      </section>
+
+
+
+
+      <!-- slider section end -->
+
+      <!-- about section start -->
+      <section class="about-section p-5">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-4">
+                      <img class="img-thumbnail" src="./class-21/about.jpg" alt="">
+                  </div>
+                  <div class="col-lg-8">
+                      <span class="h1">Blockquote use korben</span>
+                      <blockquote class="blockquote">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, accusantium labore. Voluptatibus nobis iste animi  praesentium aspernatur doloribus magnam. Distinctio deleniti error iure rem placeat.</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, accusantium labore. Voluptatibus nobis oloribus magnam. Distinctio deleniti error iure rem placeat.</p>
+                          <p class="blockquote-footer">LFWF AEADEMY</p>
+                        </blockquote>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <hr>
+
+
+
+
+
+      <!-- about section end -->
+
+      <!-- table and from start -->
+      <section class=" table-from py-5">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6">
+                      <table class="table table-bordered  text-center caption-top table-hover">
+                          <h1 class="text-success">Bootstrap5 Table</h1>
+                        <thead>
+                          <tr class="table-dark">
+                            <th scope="col">No.</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Class</th>
+                            <th scope="col">Roll</th>
+                            <th scope="col">Section</th>
+                            <th scope="col">Address</th>
+                            <th scope="col">Contact</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="table-info">
+                            <th scope="row">1</th>
+                            <td>Santu</td>
+                            <td>ten</td>
+                            <td>.5</td>
+                            <td>A</td>
+                            <td>Dhaka</td>
+                            <td>+880141854925</td>
+                          </tr>
+                          <tr class="table-secondary">
+                            <th scope="row">1</th>
+                            <td>Santu</td>
+                            <td>ten</td>
+                            <td>.5</td>
+                            <td>A</td>
+                            <td>Dhaka</td>
+                            <td>+880141854925</td>
+                          </tr>
+                          <tr class="table-success">
+                            <th scope="row">1</th>
+                            <td>Santu</td>
+                            <td>ten</td>
+                            <td>.5</td>
+                            <td>A</td>
+                            <td>Dhaka</td>
+                            <td>+880141854925</td>
+                          </tr>
+                          <tr class="table-danger">
+                            <th scope="row">1</th>
+                            <td>Santu</td>
+                            <td>ten</td>
+                            <td>.5</td>
+                            <td>A</td>
+                            <td>Dhaka</td>
+                            <td>+880141854925</td>
+                          </tr>
+                          <tr class="table-warning">
+                            <th scope="row">1</th>
+                            <td>Santu</td>
+                            <td>ten</td>
+                            <td>.5</td>
+                            <td>A</td>
+                            <td>Dhaka</td>
+                            <td>+880141854925</td>
+                          </tr>
+                          <tr class="table-primary">
+                            <th scope="row">1</th>
+                            <td>Santu</td>
+                            <td>ten</td>
+                            <td>.5</td>
+                            <td>A</td>
+                            <td>Dhaka</td>
+                            <td>+880141854925</td>
+                          </tr>
+                          <tr class="table-secondary">
+                            <th scope="row">1</th>
+                            <td>Santu</td>
+                            <td>ten</td>
+                            <td>.5</td>
+                            <td>A</td>
+                            <td>Dhaka</td>
+                            <td>+880141854925</td>
+                          </tr>
+                          <tr class="table-success">
+                            <th scope="row">1</th>
+                            <td>Santu</td>
+                            <td>ten</td>
+                            <td>.5</td>
+                            <td>A</td>
+                            <td>Dhaka</td>
+                            <td>+880141854925</td>
+                          </tr>
+                          <tr class="table-danger">
+                            <th scope="row">1</th>
+                            <td>Santu</td>
+                            <td>ten</td>
+                            <td>.5</td>
+                            <td>A</td>
+                            <td>Dhaka</td>
+                            <td>+880141854925</td>
+                          </tr>
+                          
+                        </tbody>
+                      </table>
+                      <div class="buton-sec my-5">
+                        <!-- Button trigger modal -->
+
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Launch demo modal
+                      </button>
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              ...
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                     
+
+                      
+                      
+                  </div>
+                  <div class="col-lg-6">
+                      <from>
+                        <h1 class="text-success" >Bootstrap5 from</h1>
+                        <div class="row mb-3">
+                            
+                            <div class="col">
+                                <label for="First-Name" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="First-Name" placeholder="First Name">
+  
+                            </div>
+                            <div class="col">
+                                <label for="Last-Name" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="Last-Name" placeholder="First Name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                  </div>
+
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="mb-3">
+                                <label for="formFile" class="form-label">Default file input example</label>
+                                <input class="form-control" type="file" id="formFile">
+                              </div>
+                        </div>
+                        <div class="row mb-3">
+                           <div class="col-lg-12">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Select your country</option>
+                                <option value="bangladesh">Bangladesh</option>
+                                <option value="india">India</option>
+                                <option value="china">China</option>
+                                <option value="napal">Napal</option>
+                              </select>
+                           </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-lg-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                      Web Design
+                                    </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                      Graphic Design
+                                    </label>
+                                  </div>
+                                  <div class="my-3">
+                                    <a class="btn px-4 btn-success" href="#">
+                                      Submit
+                                    </a>
+                                  </div>
+                            </div>
+
+                            
+                        </div>
+                        
+
+
+
+
+                      </from>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <hr>
+
+      <!-- table and from end -->
+
+
+
+      <section class="cards-secton py-5">
+          <div class="container">
+            <h1 class="h1 text-center py-4" > Bootstrap Card And Progress Bar</h1>   
+              <div class="row">
+                  <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h1>Thish is header</h1>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <ul class="list-group">
+                              <li class="list-group-item">Thish is card list</li>
+                              <li class="list-group-item">Thish is card list</li>
+                              <li class="list-group-item">Thish is card list</li>
+                              <li class="list-group-item">Thish is card list</li>
+                              <li class="list-group-item">Thish is card list</li>
+                          </ul>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="card-link">Card link</a>
+                          <a href="#" class="card-link">Another link</a>
+                          <br>
+                          <a href="#" class="btn btn-primary my-3">Read More</a>
+                        </div>
+                        <div class="card-footer text-center">
+                            <h1>Thish is footer</h1>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4">
+                      <div class="progress-bar-c">
+                          <div class="p-b my-3" >
+                              <h3 class="h3">HTML</h3>
+                              <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+                              </div>
+                          </div>
+                          <div class="p-b my-3" >
+                              <h3 class="h3">CSS</h3>
+                              <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">95%</div>
+                              </div>
+                          </div>
+                          <div class="p-b my-3" >
+                              <h3 class="h3">JS</h3>
+                              <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                              </div>
+                          </div>
+                          <div class="p-b my-3" >
+                              <h3 class="h3">Wordpress</h3>
+                              <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+                              </div>
+                          </div>
+                      </div>
+                      <span class="h2">
+                          text-truncate bootstrap class use kore 3 dot anben.
+                      </span>
+                      <p class="text-truncate">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis corrupti repudiandae, incidunt fuga consequuntur pariatur iure ullam ab quo ipsam inventore in. Accusamus aliquid saepe sapiente iure distinctio, assumenda tempora.
+                      </p>
+                      <div class="alert alert-danger my-5" role="alert">
+                        A simple danger alert—check it out!
+                      </div>
+                     
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h1>Thish is header</h1>
+                        </div>
+                       <div class="card-body">
+                        <img class="card-img" src="./class-21/labu.jpg" alt="">
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad repellat dolorum excepturi! Fuga, recusandae ipsam ex ducimus harum numquam odit, repellat debitis deserunt ullam optio.
+                        </p>
+                       </div>
+                        
+                        <div class="card-footer text-center">
+                            <h1>Thish is footer</h1>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <hr>
+
+      <!-- card section start -->
+      <section class="card-section my-5">
+        <div class="container">
+          <h1 class="h1 text-success text-center py-5"> Stretched link use kore kaj korben </h1>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card" style="">
+              <img src="./class-21/blog-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card with stretched link</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+            <div class="col-lg-4">
+              <div class="card" style="">
+              <img src="./class-21/blog-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card with stretched link</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+            <div class="col-lg-4">
+              <div class="card" style="">
+              <img src="./class-21/blog-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card with stretched link</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <!-- card section end -->
+
+
+      <!-- Pagination start -->
+      <section class="Pagination-custom">
+        <div class="container ">
+          <div class="d-block text-center">
+            <nav aria-label="Page navigation example ">
+              <ul class="pagination justify-content-center  ">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <!-- Pagination end -->
+      <!-- footer start -->
+
+      <footer>
+        <div class="container-fluid ">
+          <h1 class="h5 py-3 text-center text-light"> &copy; ALL RIGHT RESURVED BY LFWF</h1>
+        </div>
+
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

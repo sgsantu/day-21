@@ -1,0 +1,15 @@
+.carousel-inner{
+    /* height: 300vh; */
+}
+.carousel-caption{
+    margin-bottom: 150px !important;
+}
+.carousel-item{
+    height: 600px;
+}
+
+
+footer{
+    background-color: #212529;
+}
+
